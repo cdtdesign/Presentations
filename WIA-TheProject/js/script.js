@@ -199,7 +199,7 @@ $.getJSON("xhr/check_login.php", function(data){
 		console.log(data);
 		$.each(data, function(key, val){
 			console.log(val.first_name);
-			$(".userid").html("Welcome User: " + val.first_name);
+			$(".userid").html("Traveling " + val.first_name);
 		})
 	});
 
