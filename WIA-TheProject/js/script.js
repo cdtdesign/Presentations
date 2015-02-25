@@ -99,13 +99,13 @@ $('.modalClick2').on('click', function(event){
 		.fadeIn();
 });
 
-$('.modalClick3').on('click', function(event){
-	event.preventDefault();
-	$('.overlay')
-		.fadeIn()
-		.find('#modal3')
-		.fadeIn();
-});
+//$('.modalClick3').on('click', function(event){
+//	event.preventDefault();
+//	$('.overlay')
+//		.fadeIn()
+//		.find('#modal3')
+//		.fadeIn();
+//});
 
 $('.close').on('click', function(event){
 	event.preventDefault();
@@ -144,7 +144,7 @@ $('.close').on('click', function(event){
 				if (response.error){
 					alert(response.error);
 					} else {
-				window.location.assign('loginSignup.html');
+				window.location.assign('joinJourney.html');
 			}
 		}
 
