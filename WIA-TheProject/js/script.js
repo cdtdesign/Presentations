@@ -186,7 +186,7 @@ $('#register').on('click', function(){
 			  if (response.error){
 				  alert(response.error);
 			  }else{
-				  window.location.assign('index.html');
+				  window.location.assign('destinations.html');
 			  }
 		  }
 	  });
