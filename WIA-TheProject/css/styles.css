@@ -2,6 +2,10 @@
 
 html {overflow-y: scroll;}
 
+.userid {
+	color: #fff;
+}
+
 body {
 	background-image: url(../img/tcp-pattern.png);
 	background-color: #99dffe; /*#bbe6f9;*/
