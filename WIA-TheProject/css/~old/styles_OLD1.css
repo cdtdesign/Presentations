@@ -1,0 +1,99 @@
+/* =========================== BODY =========================== */
+
+body {
+	background: url(../img/tcp-pattern-blu.png), #bbe6f9;
+	font-family: sans-serif, Helvetica;
+	color: #3b2416;
+}
+
+/* =========================== NAV =========================== */
+
+.fixed-nav-bar {
+	text-align: center;
+	margin-bottom: 5px;
+  	position: fixed;
+ 	top: 0;
+  	left: 0;
+  	right: 0;
+  	z-index: 9999;
+  	width: 100%;
+  	height: 75px;
+  	background-color: #3a2417;
+}
+
+#menu {
+	color: #FFF;
+	list-style-type: none;
+
+
+}
+
+li {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.25em;
+	display: inline;
+	width: 100px;
+	height: 10%;
+	margin-left: 2%;
+	margin-right: 2%;
+	vertical-align: middle;
+}
+
+li, a:link {
+	color: #FFF;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+li, a:hover {
+	color: #f79563;
+
+}
+
+li, a:visited {
+	color: #f16624;
+
+}
+
+/* =========================== ELEMENTS =========================== */
+
+aside {
+	position: absolute;
+	width: 31%;
+	height: 590px;
+	margin: auto;
+	padding: auto;
+	top: 10%;
+	float: left;
+	border-style: solid;
+    border-width: 2px;
+    border-color: "#3a2417";
+}
+
+article {
+	position: absolute;
+	width: 61%;
+	height: 590px;
+	margin: auto;
+	padding: auto;
+	left: 36%;
+	top: 10%;
+	float: right;
+	border-style: solid;
+    border-width: 2px;
+    border-color: "#3a2417";
+}
+
+footer {
+	margin: 10px;
+	width: 97.5%;
+	height: 70px;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	border-style: solid;
+    border-width: 2px;
+    border-color: "#3a2417";
+    text-align: center;
+}

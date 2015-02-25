@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Christina Thorpe */
+/* WIA Online */
+
+/*body {
+	background-color: #bbe6f9;
+}
+*/
+
+
+/* =========================== INTERACTIVE MAP =========================== */
+
+#destinationDetails {
+	display: none;
+}
+
+/*  Interactive Map Container */
+.mapContainer {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	/*text-shadow: 0px 0px #FFFFFF;*/
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	width: 100%;
+	max-width: 760px;
+	height: 325px;
+	/*margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;*/
+	/*float: right;*/
+	background-image: url(../img/tmplt/FloridaMap.png);
+	background-repeat: no-repeat;
+	/*background-size: 760px;
+	background-position: 0px 0px;*/
+	background-position: 50%;
+	/*margin-bottom: 150px;*/
+	position: absolute;
+	left: 0px, 0px;
+	display: block;
+	border-radius: 1.25em;
+}
+
+/* --------------- MISSED ELEMENTS --------------- */
+
+
+/*.mapContianer a, a:visited { color: #AA0000; margin: 0px 10px 0px 0px; }*/ /* NEW! Color??? */
+
+/*.mapContianer p { margin: 0px 0px 12px 0px; }*/
+
+
+/* ------------- END MISSED ELEMENTS ------------- */
+
+.mapContainer a.dot {
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-image: url(../img/tmplt/dots.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	box-shadow: 0px 0px;
+	position: absolute;
+}
+
+.mapContainer a.dot:hover {
+	background-position: 0px -20px;
+}
+
+.mapContainer a.dot.selected {
+	background-position: 0px -40px;
+}
+
+.mapContainer .formCity {
+	position: absolute;
+	top: 150px;
+	left: 30px;
+}
+
+.mapContainer .detailContainer {
+	position: absolute;
+	top: 90px;
+	left: 490px;
+	width: 260px;
+	height: 260px;
+}
+
+.mapContainer .cityDetail {
+	position: absolute;
+	width: 260px;
+	min-height: 90px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 10px;
+	padding-bottom: 1px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	top: 0px;
+}
+
+.cityInfo {
+	width: 260px;
+}
+
+.mapContainer .cityDetail .cityPhoto {  /* <----- Added .cityDetail before .cityPhoto */
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px; /*5px;*/
+	margin-bottom: 1px;
+	border-radius: 5px;
+	max-width: 75%;
+}
+
+.mapContainer .cityInfo h2  {
+	color: #ee6730;
+	font-size: 1.375em;
+	line-height: 1em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-transform: none;
+}
+
+.mapContainer .cityInfo h3 {
+	color: #EE6730;
+	font-size: 1em;
+	line-height: .5em;
+	margin-right: 0px;
+	letter-spacing: 2px;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+}
+
+.mapContainer .cityInfo p {
+	color: #EE6730;
+	font-size: 1em;
+	width: 100%;
+}
+
+.mapContianer .clearBoth {
+	clear: both;
+	line-height: 1px;
+}
+
+/*.mapContianer .cityDetail .cityInfo {
+	width: 175px;
+	min-height: 90px;
+	float: left;
+}*/

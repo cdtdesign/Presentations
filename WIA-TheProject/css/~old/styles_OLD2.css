@@ -1,0 +1,108 @@
+/* =========================== BODY =========================== */
+
+body {
+	background: url(../img/tcp-pattern-blu.png), #bbe6f9;
+	font-family: sans-serif, Helvetica;
+	color: #3b2416;
+}
+
+/* =========================== NAV =========================== */
+
+/*nav {
+	text-align: center;
+	line-height: 75px;
+	vertical-align: middle;
+}*/
+
+.fixed-nav-bar {
+	text-align: center;
+	margin-bottom: 5px;
+  	position: fixed;
+ 	top: 0;
+  	left: 0;
+  	right: 0;
+  	z-index: 9999;
+  	width: 100%;
+  	height: 75px;
+  	background-color: #3a2417;
+}
+
+#menu {
+	color: #FFF;
+	list-style-type: none;
+
+
+}
+
+li {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.25em;
+	display: inline;
+	width: 100px;
+	height: 10%;
+	margin-left: 2%;
+	margin-right: 2%;
+	vertical-align: middle;
+}
+
+li, a:link {
+	color: #FFF;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+li, a:hover {
+	color: #f79563;
+
+}
+
+li, a:visited {
+	color: #f16624;
+
+}
+
+/* =========================== ELEMENTS =========================== */
+
+aside {
+	/*margin-left: auto;
+    margin-right: auto;*/
+	position: absolute;
+	margin: 10px;
+	width: 24%;
+	height: 605px;
+	top: 10%;
+	float: right;
+	border-style: solid;
+    border-width: 2;
+    border-color: "#3a2417";
+}
+
+article {
+	/*margin-left: auto;
+    margin-right: auto;*/
+	position: absolute;
+	left: 36%;
+	margin: 10px;
+	width: 52%;
+	height: 605px;
+	top: 10%;
+	float: left;
+	border-style: solid;
+    border-width: 2;
+    border-color: "#3a2417";
+}
+
+footer {
+	font-size: .75em;
+	margin: 10px;
+	width: 97.5%;
+	height: 49px;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	border-style: solid;
+    border-width: 2;
+    border-color: "#3a2417";
+    text-align: center;
+}

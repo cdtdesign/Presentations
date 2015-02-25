@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+    	<link rel="icon" type="image/png" href="img/favicon.png">
+		<title>Join the Journey!</title>
+        <link href="css/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="includes/jquery-1.11.1.min.js"></script>
+		<script src="includes/modernizr.js"></script>
+		<script type="text/javascript" src="includes/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	</head>
+
+		<body id="joinJourneyPg">
+			<div id="wrapper">
+			
+				<nav class="fixed-nav-bar">
+	  				<ul id="menu">
+						<li><a href="index.html" class="navMenu">home</a></li>
+						<li><a href="destinations.html" class="navMenu">destinations</a></li>
+						<li><a href="joinJourney.html" class="navMenu">join the journey!</a></li>
+						<li><a href="about.html" class="navMenu">about </a></li>
+                        <li><a href="gallery.html" class="navMenu">gallery </a></li>
+                        <span style="color:#643f28; font-size:1.875em;"> | </span>
+						<li><a href="contact.html" class="reverseMenu">contact</a></li>
+                        <li class="modalClick2"><a href="#" class="reverseMenu">signup /</li>
+                        <li class="modalClick1" style="margin-left:-12px;"><a href="#" class="reverseMenu">login</a></li>
+                        <li><p class="userid"></p></li>
+					</ul>
+				</nav>
+                
+		<div class="overlay">
+			<div id="modal1">
+              <span class="close"><i class="fa fa-times"></i></span>
+              <h3 class="header">Login</h3>
+              <div class="login">
+                <form class="loginForm">
+                    <label>Username: </label><input style="margin-bottom:10px;" name="signinButton" type="text" id="user" class="masterTooltip" title="Please enter a username." required /><br>
+                    <label>Password: </label><input style="margin-bottom:10px;" name="signinButton" type="password" id="pass" class="masterTooltip" title="Please enter a password." required /><br>
+                    <input name="signinButton" type="button" id="signinButton" value="Sign In" />
+                </form>
+			</div>
+			</div><!-- END modal1 div -->
+		
+			<div id="modal2">
+              <span class="close"><i class="fa fa-times"></i></span>
+              <h3 class="header">Signup</h3>
+              
+              <div id="login">
+                <form id="loginForm"><strong>
+              
+                  <label for="first-name">First Name</label><br>
+                  <input id="first" type="text" name="first-name" placeholder="Enter your first name"><br>
+              
+                  <label for="last-name">Last Name</label><br>
+                  <input id="last" type="text" name="last-name" placeholder="Enter your last name"><br>
+                  
+                  <label for="user-name">User Name</label><br>
+                  <input id="userName" type="text" name="user-name" placeholder="Enter your user name"><br>
+                  
+                  <label for="email">Email Address</label><br>
+                  <input id="email" type="email" name="email" placeholder="Enter email address"><br>
+              
+                  <label for="confirm">Confirm Address</label><br>
+                  <input type="email" name="confirm" placeholder="Confirm your email" required><br>
+              
+                  <label for="password">Password</label><br>
+                  <input id="password" type="password" name="password" placeholder"Enter a password" required><br>
+              
+                  <label for="pass-confirm">Confirm Password</label><br>
+                  <input type="password" name="pass-confirm" placeholder"Confirm your password" required></strong><br>
+                  
+                  <input type="checkbox" required><span style="font-style: italic;font-size:.75em;vertical-align:middle;"><sp>I agree to the <a href="#" style="color:#3a2417;text-decoration: underline;">terms.</a></span><br>
+
+                  <input name="signinButton" type="button" id="signinButton" value="Sign In" />
+              
+              </form>
+			</div>
+			</div><!-- END modal2 div -->
+		</div><!-- END overlay div -->
+
+				<aside>
+					<a href="index.html"><img src="img/TCP_OfficialProjectCrest_R_yllwshirt.png" class="logo"></a>
+				</aside>
+
+				<article>
+                	<div class="paraDiv">
+                	<h1>Start here.</h1>
+					<p>Once you <strong><a href="#" class="modalClick2">signup / </a><a href="#" class="modalClick1">login</a></strong>, download and cut out your very own Traveling Christian, color him if you like, and take him with you to interesting destinations. Take pictures of you with Traveling Christian, then email us with a brief explanation of your adventure (or funny moment) to: <strong><a href="mailto:post@TravelingChristian.com?subject=My%20TC%20Journey%20to...&body=Tell%20us%20in%20one%20to%20two%20sentences%20where%20Traveling%20Christian%20took%20you!%20#TravelingChristian%20#HappyTravels">post@TravelingChristian.com.</a></p>
+                    <p></strong>Look for your post at Traveling Christian's blog! Happy travels!</p>
+                    <div id="tcDownload"><a href="http://cdtlicio.us/TravelingChristian" target="_blank"><img src="img/tcp-downloadInstruction-download.png"></a></div>
+                    <div id="tcPrint"><img src="img/tcp-downloadInstruction-print.png"></div>
+                    <div id="tcEmail"><a href="mailto:post@TravelingChristian.com?subject=My%20TC%20Journey%20to...&body=Tell%20us%20in%20one%20to%20two%20sentences%20where%20Traveling%20Christian%20took%20you!%20#TravelingChristian%20#HappyTravels"><img src="img/tcp-downloadInstruction-email.png"></a></div>
+                    <h1 style="float:right; margin-top:0px; padding-right:3%"><a href="destinations.html"><img src="img/directionalArrowLg-org-W.png"/> Let's go!</a></h1>
+                    </div><!-- End .paraDiv -->
+				</article>
+
+				<footer>
+					<p class="copyright">Copyright &copy; 2015 <a href="http://www.cdtdesign.com" target="_blank">cdtdesign.com</a> | All rights reserved.</p>
+				</footer>
+
+
+			</div><!-- End Wrapper -->
+			<script type="text/javascript" src="js/script.js"></script>
+		</body>
+
+
