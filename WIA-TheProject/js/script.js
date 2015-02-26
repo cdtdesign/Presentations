@@ -35,6 +35,20 @@ $(function() {
 	//$(".arrowToggle").click(function () {
 //		$('#featureDestination').slideToggle();
 	
+	
+	$('.logo').mouseenter(function(){
+		$('.logo').css('transform', 'rotate(-10deg)');
+		
+		});
+		
+	$('.logo').mouseleave(function(){
+		$('.logo').css('transform', 'rotate(0deg)');
+		
+		});
+
+
+
+	
 	$('#arrowToggle').mouseenter(function(){
 		$('#arrowToggle').css('transform', 'rotate(90deg)');
 		
