@@ -2,12 +2,6 @@
 
 html {overflow-y: scroll;}
 
-.userid {
-	color: #fff;
-	font-weight: normal;
-	font-size: 1em;
-	}
-
 body {
 	background-image: url(../img/tcp-pattern.png);
 	background-color: #99dffe; /*#bbe6f9;*/
@@ -680,5 +674,10 @@ input[placeholder]	{
 	vertical-align: middle;
 }
 
-
+.userid {
+	color: #fff;
+	font-weight: normal;
+	font-size: 1em;
+	text-decoration: underline;
+	}
 
