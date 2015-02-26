@@ -355,7 +355,7 @@ footer {
 #journeyKit {
 	width: 30%;
 	float: right;
-	padding-left: 10px;
+	padding-left: 15px;
 	/*position: absolute;*/
 	top: 0;
 	/*left: 45%;*/
@@ -364,7 +364,8 @@ footer {
 #passportCvr {
 	width: 20%;
 	float: right;
-	padding-left: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
 	top: 0;
 }
 
