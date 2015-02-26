@@ -120,12 +120,9 @@ a.reverseMenu:visited {
 /* =========================== ELEMENTS =========================== */
 
 aside {
-	/*margin-left: auto;
-    margin-right: auto;*/
 	position: absolute;
 	margin: 10px;
 	width: 34%;
-	/*height: 605px;*/
 	top: 10%;
 	float: left;
 	border-style: solid;
@@ -134,8 +131,6 @@ aside {
 	}
 
 article {
-	/*margin-left: auto;
-    margin-right: auto;*/
 	position: absolute;
 	left: 36%;
 	margin: 10px;
@@ -171,11 +166,6 @@ p {
 	line-height: 1.625em;
 	}
 
-/*a:link {
-	color: #f16624;
-	font-style: bold;
-	}
-*/
 
 /* =========================== DESTINATIONS =========================== */
 
@@ -184,10 +174,6 @@ p {
 	max-width: 760px;
 	height: 0px;
 	padding: 2em;
-	/*padding-top: .25em;
-	padding-left: 1.25em;
-	padding-right: 1.25em;
-	padding-bottom: .25em;*/
 	border-radius: 1.125em;
 	background-color: #fdde8c;
 	display: none;
@@ -260,7 +246,6 @@ p {
 	font-size: .875em;
 	font-weight: bold;
 	letter-spacing: .1em;
-	/*padding: 6px;*/
 	padding-top: 5px;
 	padding-right: 6px;
 	padding-bottom: 3px;
@@ -336,10 +321,6 @@ footer {
 	width: 100%;
 	}
 
-/*p .footer {
-	width: 100%;
-}*/
-
 /* =========================== LOGO =========================== */
 
 .logo {
@@ -369,13 +350,10 @@ footer {
 
 canvas {
 	padding-right: 8px;
-	/*float: left;*/
-	/*top:0px;*/
 	}
 
 video {
 	/*width: 40%;*/
-	/*top:0px;*/
 	}
 	
 /* =========================== TOOLTIP =========================== */	
@@ -425,7 +403,6 @@ video {
 #modal2	{
 	width: 300px;
 	height: 650px;
-	/*font-weight: bold;*/
 	background: #f16624;
 	box-shadow: 0 0 0px #000;
 	border-radius: 15px;
@@ -549,6 +526,7 @@ form.input	{
 label {
 	font-style: normal;
 	font-size: .9375em;
+	font-weight: bold;
 }
 
 input[type=radio] + img{
@@ -687,8 +665,4 @@ input[placeholder]	{
 	color: #fff;
 	font-size: .75em;
 	display: none;
-}
-
-.arrowLg {
-	
 }
