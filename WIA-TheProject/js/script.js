@@ -48,7 +48,7 @@ $(function() {
 	$('#arrowToggle').click(function(){
 		$('#featureDestination').slideToggle(500, function(){
 			
-			$('#featureDestination').css('height', '420px') && 
+			$('#featureDestination').css('height', '100%') && 
 			$('#fdHide').css('display', 'inline');
 			
 			});
