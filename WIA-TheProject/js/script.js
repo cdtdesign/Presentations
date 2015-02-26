@@ -50,56 +50,25 @@ $(function() {
 
 
 	
-	$('#arrowToggle').mouseenter(function(){
+	$('.destinationHeader').mouseenter(function(){
+		$('.destinationHeader').css('color', '#f16624');
 		$('#arrowToggle').css('transform', 'rotate(90deg)');
 		
 		});
 		
-	$('#arrowToggle').mouseleave(function(){
+	$('.destinationHeader').mouseleave(function(){
+		$('.destinationHeader').css('color', '#3b2416');
 		$('#arrowToggle').css('transform', 'rotate(0deg)');
 		
 		});
 	
-	$('#arrowToggle').click(function(){
+	$('.destinationHeader').click(function(){
 		$('#featureDestination').slideToggle(500, function(){
 			
 			$('#featureDestination').css('height', '100%') && 
 			$('#fdHide').css('display', 'inline');
 			
 			});
-			
-	//$('#arrowToggle').click(function(){
-//		$('#featureDestination').slideToggle(500, function(){
-//			
-//			$('#featureDestination').css('height', '420px') && 
-//			$('#fdHide').css('display', 'inline');
-//			
-//			});
-			
-	//$('.arrowToggle').click(function(){
-//		$('#featureDestination').slideToggle(500, function(){
-//			$('#featureDestination').css('height', '425px') && 
-//			$('#fdHide').css('display', 'inline');
-//			
-//			});
-
-			
-	//$('.arrowToggle').click(function(){
-//		$('#featureDestination').slideDown(2000, function(){
-//			$('#featureDestination').css('height', '500px') && 
-//			$('#fdHide').css('display', 'inline');
-//			
-//			});
-//				
-//	$('.arrowToggle').click(function(){
-//		$('#featureDestination').slideUp(2000, function(){
-//			$('#featureDestination').css('height', '0px') &&
-//			$('#fdHide').css('display', 'none');
-//			
-//			});
-//		
-//		
-//		});
 			
 		
 		}); // End Dropdown Featrued Destinations
@@ -232,7 +201,7 @@ $.getJSON("xhr/check_login.php", function(data){
 		$.each(data, function(key, val){
 			console.log(val.first_name);
 			$(".userid").html("Traveling " + val.first_name, function(){
-				$('#logOut').css('display', 'inline')
+				$('#logOut').css('display', 'inline');
 				
 				});
 		})
