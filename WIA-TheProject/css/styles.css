@@ -4,7 +4,8 @@ html {overflow-y: scroll;}
 
 .userid {
 	color: #fff;
-}
+	font-weight: normal;
+	}
 
 body {
 	background-image: url(../img/tcp-pattern.png);
@@ -72,7 +73,7 @@ a:link, a:hover, a:visited {
 .fixed-nav-bar li {
 	color: #FFF; /* White */
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.375em;
 	/*letter-spacing: -.005em;*/
 	display: inline;
 	width: 100px;
@@ -86,7 +87,7 @@ a:link, a:hover, a:visited {
 a.navMenu:active,
 a.navMenu:visited:active {
 	color: #fedf8d; /* Gold */
-}
+	}
 
 a.navMenu:link {
 	color: #FFF; /* White */
