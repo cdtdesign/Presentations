@@ -77,8 +77,8 @@ a:link, a:hover, a:visited {
 	display: inline;
 	width: 100px;
 	height: 10%;
-	margin-left: 1.25%;
-	margin-right: 1.25%;
+	margin-left: 1%;
+	margin-right: 1%;
 	vertical-align: middle;
 	}
 	
@@ -234,6 +234,7 @@ p {
 
 .destinationHeader {
 	color: #3b2416;
+	margin: 0px;
 	}
 
 .destinationType {
@@ -350,11 +351,19 @@ footer {
 	}
 	
 #journeyKit {
-	width: 60%;
+	width: 30%;
 	float: right;
-	position: absolute;
-	top: 190%;
-	left: 45%;
+	padding-left: 10px;
+	/*position: absolute;*/
+	top: 0;
+	/*left: 45%;*/
+}
+
+#passportCvr {
+	width: 20%;
+	float: right;
+	padding-left: 10px;
+	top: 0;
 }
 
 /* =========================== VIDEO =========================== */

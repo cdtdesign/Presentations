@@ -35,7 +35,15 @@ $(function() {
 	//$(".arrowToggle").click(function () {
 //		$('#featureDestination').slideToggle();
 	
-	
+	$('#arrowToggle').mouseenter(function(){
+		$('#arrowToggle').css('transform', 'rotate(90deg)');
+		
+		});
+		
+	$('#arrowToggle').mouseleave(function(){
+		$('#arrowToggle').css('transform', 'rotate(0deg)');
+		
+		});
 	
 	$('#arrowToggle').click(function(){
 		$('#featureDestination').slideToggle(500, function(){
@@ -44,6 +52,14 @@ $(function() {
 			$('#fdHide').css('display', 'inline');
 			
 			});
+			
+	//$('#arrowToggle').click(function(){
+//		$('#featureDestination').slideToggle(500, function(){
+//			
+//			$('#featureDestination').css('height', '420px') && 
+//			$('#fdHide').css('display', 'inline');
+//			
+//			});
 			
 	//$('.arrowToggle').click(function(){
 //		$('#featureDestination').slideToggle(500, function(){
@@ -81,7 +97,7 @@ $(function() {
 //		});	
 
 
-// Add Modal
+/* ============================ Modal ============================ */
 
 $('.modalClick1').on('click', function(event){
 	event.preventDefault();
@@ -99,13 +115,6 @@ $('.modalClick2').on('click', function(event){
 		.fadeIn();
 });
 
-//$('.modalClick3').on('click', function(event){
-//	event.preventDefault();
-//	$('.overlay')
-//		.fadeIn()
-//		.find('#modal3')
-//		.fadeIn();
-//});
 
 $('.close').on('click', function(event){
 	event.preventDefault();
@@ -202,7 +211,6 @@ $.getJSON("xhr/check_login.php", function(data){
 			$(".userid").html("Traveling " + val.first_name);
 		})
 	});
-
 
 /* ============================ Tooltip ============================ */
 
