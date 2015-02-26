@@ -191,6 +191,7 @@ p {
 	border-radius: 1.125em;
 	background-color: #fdde8c;
 	display: none;
+	overflow: hidden;
 	}
 
 #featureDestination #fdHide {
@@ -344,6 +345,7 @@ footer {
 .logo {
 	width: 60%;
 	float: right;
+	z-index: 8050;
 	}
 	
 #journeyKit {
@@ -674,10 +676,19 @@ input[placeholder]	{
 	vertical-align: middle;
 }
 
-.userid {
+.userId {
 	color: #fff;
 	font-weight: normal;
 	font-size: 1em;
 	text-decoration: underline;
 	}
+	
+#logOut {
+	color: #fff;
+	font-size: .75em;
+	display: none;
+}
 
+.arrowLg {
+	
+}

@@ -37,7 +37,8 @@ $(function() {
 	
 	
 	$('.logo').mouseenter(function(){
-		$('.logo').css('transform', 'rotate(-10deg)');
+		$('.logo').effect( 'bounce', { times: 2, distance: 25 }, 'slow' );
+		$('.logo').css('transform', 'rotate(-15deg)');
 		
 		});
 		
@@ -110,6 +111,14 @@ $(function() {
 //		
 //		});	
 
+/* ============================ Arrow Bounce ============================ */
+
+
+//$('a.arrowLg').hover(function() {
+//  $( "#toggle" ).toggle( "bounce", { times: 3 }, "slow" );
+//});
+
+
 
 /* ============================ Modal ============================ */
 
@@ -179,7 +188,7 @@ $('.close').on('click', function(event){
 $('#logOut').click(function(e){
 		e.preventDefault();
 		$.get('xhr/logout.php', function(){
-			window.location.assign('index.html')
+			window.location.assign('joinJourney.html')
 		})
 	});
 
@@ -222,9 +231,20 @@ $.getJSON("xhr/check_login.php", function(data){
 		console.log(data);
 		$.each(data, function(key, val){
 			console.log(val.first_name);
-			$(".userid").html("Traveling " + val.first_name);
+			$(".userid").html("Traveling " + val.first_name, function(){
+				$('#logOut').css('display', 'inline')
+				
+				});
 		})
 	});
+	
+/*$.getJSON("xhr/check_login.php", function(data){
+		console.log(data);
+		$.each(data, function(key, val){
+			console.log(val.first_name);
+			$(".userid").html("Traveling " + val.first_name);
+		})
+	});*/
 
 /* ============================ Tooltip ============================ */
 
