@@ -27,7 +27,7 @@
                         <li><a href="about.html" class="navMenu">about</a></li>
                         <li style="color:#643f28;font-size:1.875em;font-weight:normal;">|</li>
 						<li><a href="contact.html" class="reverseMenu">contact</a></li>
-                        <li class="modalClick2"><a href="#" class="reverseMenu">signup / </li>
+                        <li class="modalClick2"><a href="#" class="reverseMenu">signup / </a></li>
                         <li class="modalClick1" style="margin-left:-12px;"><a href="#" class="reverseMenu">login</a></li>
                         <li class="userId"><a href="#" class="userId" id="logOut">Logout</a></li>
 					</ul>
@@ -41,7 +41,7 @@
                 <form class="loginForm">
                     <label>Username: </label><input style="margin-bottom:10px;" name="signinButton" type="text" id="user" class="masterTooltip" title="Please enter a username." required /><br>
                     <label>Password: </label><input style="margin-bottom:10px;" name="signinButton" type="password" id="pass" class="masterTooltip" title="Please enter a password." required /><br>
-                    <input name="signinButton" type="button" id="signinButton" value="Sign In" />
+                    <input name="signinButton" type="button" id="signinButton" value="Sign In" >
                 </form>
 			</div>
 			</div><!-- END modal1 div -->
@@ -53,29 +53,31 @@
               <div id="login">
                 <form id="loginForm"><strong>
               
-                  <label for="first-name">First Name</label><br>
+                  <label>First Name</label><br>
                   <input id="first" type="text" name="first-name" placeholder="Enter your first name"><br>
               
-                  <label for="last-name">Last Name</label><br>
+                  <label>Last Name</label><br>
                   <input id="last" type="text" name="last-name" placeholder="Enter your last name"><br>
                   
-                  <label for="user-name">User Name</label><br>
+                  <label>User Name</label><br>
                   <input id="userName" type="text" name="user-name" placeholder="Enter your user name"><br>
                   
-                  <label for="email">Email Address</label><br>
+                  <label>Email Address</label><br>
                   <input id="email" type="email" name="email" placeholder="Enter email address"><br>
               
-                  <label for="confirm">Confirm Address</label><br>
+                  <label>Confirm Address</label><br>
                   <input type="email" name="confirm" placeholder="Confirm your email" required><br>
               
-                  <label for="password">Password</label><br>
-                  <input id="password" type="password" name="password" placeholder"Enter a password" required><br>
+                  <label>Password</label><br>
+                  <input id="password" type="password" name="password" placeholder="Enter a password" required><br>
               
-                  <label for="pass-confirm">Confirm Password</label><br>
-                  <input type="password" name="pass-confirm" placeholder"Confirm your password" required></strong><br>
+                  <label>Confirm Password</label><br>
+                  <input type="password" name="pass-confirm" placeholder="Confirm your password" required></strong><br>
                   
-                  <input type="checkbox" required><span style="font-style: italic;font-size:.75em;vertical-align:middle;"><sp>I agree to the <a href="#" style="color:#3a2417;text-decoration: underline;">terms.</a></span><br>
-
+                  <div style="font-style:italic;font-size:.75em;">
+                  <input type="checkbox" required >I agree to the <a href="#" style="color:#3a2417;text-decoration:underline;">terms.</a><br>
+				  </div>
+                  
                   <input type="button" id="register" value="Submit">
               
               </form>
@@ -84,18 +86,18 @@
 		</div><!-- END overlay div -->
 
 				<aside>
-					<a href="index.html"><img src="img/TCP_OfficialProjectCrest_R_yllwshirt.png" class="logo"></a>
+					<a href="index.html"><img src="img/TCP_OfficialProjectCrest_R_yllwshirt.png" alt="Official Traveling Christian Project" class="logo"></a>
 				</aside>
 
 				<article>
                 	<div class="paraDiv">
                 	<h1>Start here.</h1>
-					<p>Once you <strong><a href="#" class="modalClick2">signup / </a><a href="#" class="modalClick1">login</a></strong>, download and cut out your very own Traveling Christian, color him if you like, and take him with you to interesting destinations. Take pictures of you with Traveling Christian, then email us with a brief explanation of your adventure (or funny moment) to: <strong><a href="mailto:post@TravelingChristian.com?subject=My%20TC%20Journey%20to...&body=Tell%20us%20in%20one%20to%20two%20sentences%20where%20Traveling%20Christian%20took%20you!%20#TravelingChristian%20#HappyTravels">post@TravelingChristian.com.</a></p>
-                    <p></strong>Look for your post at Traveling Christian's blog! Happy travels!</p>
-                    <div id="tcDownload"><a href="img/TravelingChristianSht.pdf" target="_blank"><img src="img/tcp-downloadInstruction-download.png"></a></div>
-                    <div id="tcPrint"><img src="img/tcp-downloadInstruction-print.png"></div>
-                    <div id="tcEmail"><a href="mailto:post@TravelingChristian.com?subject=My%20TC%20Journey%20to...&body=Tell%20us%20in%20one%20to%20two%20sentences%20where%20Traveling%20Christian%20took%20you!%20#TravelingChristian%20#HappyTravels"><img src="img/tcp-downloadInstruction-email.png"></a></div>
-                    <h1 style="float:right; margin-top:0px; padding-right:3%"><a href="destinations.html"><img src="img/directionalArrowLg-org-W.png" class="arrowLg"/> Let's go!</a></h1>
+					<p>Once you <strong><a href="#" class="modalClick2">signup / </a><a href="#" class="modalClick1">login</a>,</strong> download and cut out your very own Traveling Christian, color him if you like, and take him with you to interesting destinations. Take pictures of you with Traveling Christian, then email us with a brief explanation of your adventure (or funny moment) to: <a href="mailto:post@TravelingChristian.com?subject=My%20TC%20Journey%20to...&body=Tell%20us%20in%20one%20to%20two%20sentences%20where%20Traveling%20Christian%20took%20you!%20#TravelingChristian%20#HappyTravels"><strong>post@TravelingChristian.com.</strong></a></p>
+                    <p>Look for your post at Traveling Christian's blog! Happy travels!</p>
+                    <div id="tcDownload"><a href="img/TravelingChristianSht.pdf" target="_blank"><img src="img/tcp-downloadInstruction-download.png" alt="Download TC"></a></div>
+                    <div id="tcPrint"><img src="img/tcp-downloadInstruction-print.png" alt="Print & Cutout TC"></div>
+                    <div id="tcEmail"><a href="mailto:post@TravelingChristian.com?subject=My%20TC%20Journey%20to...&body=Tell%20us%20in%20one%20to%20two%20sentences%20where%20Traveling%20Christian%20took%20you!%20#TravelingChristian%20#HappyTravels"><img src="img/tcp-downloadInstruction-email.png" alt="Snap & Email us!"></a></div>
+                    <h1 class="directionalQueue" style="float:right; margin-top:0px; padding-right:3%"><a href="destinations.html"><img src="img/directionalArrowLg-org-W.png" class="arrowLg" alt="This way"/> Let's go!</a></h1>
                     </div><!-- End .paraDiv -->
 				</article>
 

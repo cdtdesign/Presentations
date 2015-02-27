@@ -29,13 +29,38 @@ if(Modernizr.canvas){
 	
 }
 
+	var theCanvas2 = document.getElementById('Canvas2');
+	if (theCanvas2 && theCanvas2.getContext) {
+	var ctx2 = theCanvas2.getContext("2d");
+	if (ctx2) {
+
+		var srcImg2 = document.getElementById("img2");
+		
+		//Draw img directly onto the canvas
+		ctx2.drawImage(srcImg2, 825,10, 750,1050);
+		
+			} else {
+			//Canvas is NOT supported
+			//Polyfills would go here:
+			
+			
+			}
+			
+			console.log(Modernizr);
+
+		}
+		
+	
+
 //Dropdown Featured Destinations
 $(function() {
 	
-	//$(".arrowToggle").click(function () {
-//		$('#featureDestination').slideToggle();
-	
-	
+	//$('.directionalQueue').hover(function () {
+//		$('.directionalQueue').effect('shake', { times: 1 }, 'slow');
+//
+//	});
+//	
+		
 	$('.logo').mouseenter(function(){
 		$('.logo').effect( 'bounce', { times: 2, distance: 25 }, 'slow' );
 		$('.logo').css('transform', 'rotate(-15deg)');
@@ -73,21 +98,6 @@ $(function() {
 		
 		}); // End Dropdown Featrued Destinations
 		
-//Animate menu items
-//$('a, li.fixed-nav-bar').hover(function(){
-//		
-//		$('.fixed-nav-bar').animate({fontSize: '1.5em'}, 1000);
-//		
-//		});	
-
-/* ============================ Arrow Bounce ============================ */
-
-
-//$('a.arrowLg').hover(function() {
-//  $( "#toggle" ).toggle( "bounce", { times: 3 }, "slow" );
-//});
-
-
 
 /* ============================ Modal ============================ */
 

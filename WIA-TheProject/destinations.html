@@ -29,7 +29,7 @@
                         <li><a href="about.html" class="navMenu">about</a></li>
                         <li style="color:#643f28;font-size:1.875em;font-weight:normal;">|</li>
 						<li><a href="contact.html" class="reverseMenu">contact</a></li>
-                        <li class="modalClick2"><a href="#" class="reverseMenu">signup / </li>
+                        <li class="modalClick2"><a href="#" class="reverseMenu">signup / </a></li>
                         <li class="modalClick1" style="margin-left:-12px;"><a href="#" class="reverseMenu">login</a></li>
                         <li class="userId"><a href="#" class="userId" id="logOut">Logout</a></li>
 					</ul>
@@ -43,7 +43,7 @@
                 <form class="loginForm">
                     <label>Username: </label><input style="margin-bottom:10px;" name="signinButton" type="text" id="user" class="masterTooltip" title="Please enter a username." required /><br>
                     <label>Password: </label><input style="margin-bottom:10px;" name="signinButton" type="password" id="pass" class="masterTooltip" title="Please enter a password." required /><br>
-                    <input name="signinButton" type="button" id="signinButton" value="Sign In" />
+                    <input name="signinButton" type="button" id="signinButton" value="Sign In" >
                 </form>
 			</div>
 			</div><!-- END modal1 div -->
@@ -55,29 +55,31 @@
               <div id="login">
                 <form id="loginForm"><strong>
               
-                  <label for="first-name">First Name</label><br>
+                  <label>First Name</label><br>
                   <input id="first" type="text" name="first-name" placeholder="Enter your first name"><br>
               
-                  <label for="last-name">Last Name</label><br>
+                  <label>Last Name</label><br>
                   <input id="last" type="text" name="last-name" placeholder="Enter your last name"><br>
                   
-                  <label for="user-name">User Name</label><br>
+                  <label>User Name</label><br>
                   <input id="userName" type="text" name="user-name" placeholder="Enter your user name"><br>
                   
-                  <label for="email">Email Address</label><br>
+                  <label>Email Address</label><br>
                   <input id="email" type="email" name="email" placeholder="Enter email address"><br>
               
-                  <label for="confirm">Confirm Address</label><br>
+                  <label>Confirm Address</label><br>
                   <input type="email" name="confirm" placeholder="Confirm your email" required><br>
               
-                  <label for="password">Password</label><br>
-                  <input id="password" type="password" name="password" placeholder"Enter a password" required><br>
+                  <label>Password</label><br>
+                  <input id="password" type="password" name="password" placeholder="Enter a password" required><br>
               
-                  <label for="pass-confirm">Confirm Password</label><br>
-                  <input type="password" name="pass-confirm" placeholder"Confirm your password" required></strong><br>
+                  <label>Confirm Password</label><br>
+                  <input type="password" name="pass-confirm" placeholder="Confirm your password" required></strong><br>
                   
-                  <input type="checkbox" required><span style="font-style: italic;font-size:.75em;vertical-align:middle;"><sp>I agree to the <a href="#" style="color:#3a2417;text-decoration: underline;">terms.</a></span><br>
-
+                  <div style="font-style:italic;font-size:.75em;">
+                  <input type="checkbox" required >I agree to the <a href="#" style="color:#3a2417;text-decoration:underline;">terms.</a><br>
+				  </div>
+                  
                   <input type="button" id="register" value="Submit">
               
               </form>
@@ -86,7 +88,7 @@
 		</div><!-- END overlay div -->
 
 				<aside>
-					<a href="index.html"><img src="img/TCP_OfficialProjectCrest_R_grnshirt.png" class="logo"></a>
+					<a href="index.html"><img src="img/TCP_OfficialProjectCrest_R_grnshirt.png" alt="Official Traveling Christian Project" class="logo"></a>
 					<br>
 					<br>
 					<br>
@@ -100,22 +102,22 @@
 		<div class="paraDiv">
         <!-- FEATURE DESTINATION -->
         
-        <h2 class="destinationHeader">Featured destination <img id="arrowToggle" src="img/directionalArrow-org-E.png" /></h2>
+        <h2 class="destinationHeader">Featured destination <img id="arrowToggle" src="img/directionalArrow-org-E.png" alt="This way"/></h2>
 		<br>
         <div id="featureDestination">
             
                 <div id='fdHide'>
-                <p class="featureCopy"><strong>WOW Balls at Central Florida Zoo </strong><sp><span class="destinationType2">ACTIVE!</span><br>
-Travelers, take a "walk on water" with the WOW Balls at the Central Florida Zoo in Sanford, FL. Keep dry and take a 5 minute spin inside these fun spheres before checking out the great animals inside the zoo. The <a href="http://centralfloridazoo.org" target="_blank">Central Florida Zoo</a> is conveniently located just off of I-4 in Sanford at <a href="http://cdtlicio.us/CentralFlaZooMap"  target="_blank">3755 NW Hwy 17-92, Sanford, FL</a> and is open from 9AM to 5PM all year round, closed only for Thanksgiving and Christmas.</p>
+                <p class="featureCopy"><strong>WOW Balls at Central Florida Zoo </strong><span class="destinationType2">ACTIVE!</span><br>
+                Travelers, take a "walk on water" with the WOW Balls at the Central Florida Zoo in Sanford, FL. Keep dry and take a 5 minute spin inside these fun spheres before checking out the great animals inside the zoo. The <a href="http://centralfloridazoo.org" target="_blank">Central Florida Zoo</a> is conveniently located just off of I-4 in Sanford at <a href="http://cdtlicio.us/CentralFlaZooMap"  target="_blank">3755 NW Hwy 17-92, Sanford, FL</a> and is open from 9AM to 5PM all year round, closed only for Thanksgiving and Christmas.</p>
 
-            <img src="img/TCP_New_TC_Cutout_color.png" id="tcCutoutDestinations">
+            <img src="img/TCP_New_TC_Cutout_color.png" id="tcCutoutDestinations" alt="Traveling Christian">
 			
             <div id="canvasVideo">
             <canvas id="Canvas1" width="150" height="150">Your browser does not support canvas.</canvas>
             <video controls id="vid1" src="vid/WOWBallsSanfordZoo.mp4" width="263" height="158"></video>
             </div><!-- End #canvasVideo div-->
 
-            <img src="img/WOWBallsSanfordZoo.jpg" id="img1" width="200" height="200" style="display:none">
+            <img src="img/WOWBallsSanfordZoo.jpg" id="img1" width="200" height="200" style="display:none" alt="WOW Balls">
             
             </div><!-- END #fdHide -->
 
@@ -142,7 +144,7 @@ Travelers, take a "walk on water" with the WOW Balls at the Central Florida Zoo 
             <a class="dot" style="top: 211px; left: 432px;" destination="K1" city="K"></a>
             
           <!-- FORM -->
-          <form id="mapForm" name="mapForm" method="post" action="" class="formCity">
+          <form id="mapForm" name="mapForm" method="post" class="formCity">
               <select name="city" id="city">
                 <option value="O">Orlando</option>
                 <option value="S">Sanford</option>
@@ -324,7 +326,7 @@ Travelers, take a "walk on water" with the WOW Balls at the Central Florida Zoo 
     <br>
     <br>
                 
-                <h1 style="float:left;margin-top:35%;padding-right:8%;"><a href="gallery.html">Breadcrumbs <img src="img/directionalArrowLg-org-E.png" class="arrowLg"/></a></h1>
+                <h1 style="float:left;margin-top:35%;padding-right:8%;"><a href="gallery.html">Breadcrumbs <img src="img/directionalArrowLg-org-E.png" class="arrowLg" alt="This way"/></a></h1>
                 
 				</article>
 
